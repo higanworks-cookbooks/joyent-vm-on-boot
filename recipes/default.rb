@@ -8,7 +8,7 @@
 #
 
 
-%w(home opt).each do |w|
+%w(var home opt).each do |w|
 
   execute "mv dirs and bind mount" do
     command "mv /#{w} /data/ ;mkdir /#{w}; mount --bind /data/#{w} /#{w}"
