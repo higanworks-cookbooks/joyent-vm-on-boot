@@ -23,3 +23,6 @@
 
 end
 
+
+log("Some directories are remount to /data/* .") { level :warn }
+log("Prease reboot virtualmachine.")             { level :warn }
